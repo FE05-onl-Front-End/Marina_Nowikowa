@@ -1,0 +1,37 @@
+.about {
+  width: 100%;
+  &__wrapper {
+    margin-top: 121px;
+    margin-bottom: 124px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    grid-gap: 74px 94px;
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__item-img {
+    text-align: center;
+    margin-bottom: 34px;
+  }
+  &__item-title {
+    padding-bottom: 25px;
+    color: #2d3033;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__item-text {
+    color: #6c7279;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+}

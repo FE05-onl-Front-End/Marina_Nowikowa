@@ -1,0 +1,65 @@
+.review {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+
+  &__img-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__card {
+    background-color: #53354a;
+    display: grid !important;
+  }
+
+  &__item {
+    margin: auto;
+    margin-left: 75px;
+    margin-top: 105px;
+  }
+
+  &__item.slick-slide {
+    outline: none;
+  }
+  &__item-content {
+    display: block;
+    max-width: 500px;
+    color: #ffffff;
+    font-family: Cardo;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 42px;
+    text-align: left;
+  }
+
+  &__item-text {
+    max-width: 500px;
+    padding-top: 25px;
+    font-family: Raleway;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 95px;
+  margin-top: 60px;
+}
+
+.slick-dots button {
+  margin-right: 3px;
+  width: 13px;
+  height: 15px;
+  opacity: 0.2;
+  background-color: #ffffff;
+  border-radius: 100%;
+  font-size: 0;
+}
