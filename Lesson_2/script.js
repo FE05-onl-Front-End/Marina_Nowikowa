@@ -12,13 +12,15 @@ data.ourArmy = prompt("Колько было воинов в армии коро
 data.enemiesArmy = prompt("Сколько врагов было?");
 data.enemiesArmy = prompt("Сколько враги потеряли воинов?");
 
-alert(`Король ${data.name}, мы победили вражескую армию 
+alert(`Король ${data.name}, мы победили вражескую армию
 в ${data.enemiesArmy}! Враг бежит, оставив на поле боя
- ${data.enemiesLost} павших воинов. Наши потери 
+ ${data.enemiesLost} павших воинов. Наши потери
  король ${data.name}, составили ${data.ourLost} героически
- павших воинов от всей нашей армии 
+ павших воинов от всей нашей армии
  в ${data.ourArmy} солдат! Мы победили,
-  сохранив ${data.ourArmy - data.ourLost} воинов. 
-  И можем продолжить преследовать остатки вражеской 
-  армии в ${data.enemiesArmy - data.enemiesLost} солдат. 
+  сохранив ${data.ourArmy - data.ourLost} воинов.
+  И можем продолжить преследовать остатки вражеской
+  армии в ${data.enemiesArmy - data.enemiesLost} солдат.
   С победой король ${data.name}!!`);
+
+
