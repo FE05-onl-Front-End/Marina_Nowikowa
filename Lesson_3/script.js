@@ -1,18 +1,18 @@
 // полуель нормальная
 
-// let number = 8;
-// let str = " ";
+let number = 8;
+let str = " ";
 
-// for (let i = 0; i < number; i++) {
-//   str = str + "*";
-//   console.log(str);
-// }
+for (let i = 0; i < number; i++) {
+  str = str + "*";
+  console.log(str);
+}
 
 // полуель обратная
 
-// for (var x = "********"; x.length > 1; ) {
-//   console.log((x = x.slice(0, -1)));
-// }
+for (var x = "********"; x.length > 1; ) {
+  console.log((x = x.slice(0, -1)));
+}
 
 // задание с числами
 
