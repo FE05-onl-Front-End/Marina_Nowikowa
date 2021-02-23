@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Lesson_9/style.css" />
+    <title>Lesson 9</title>
+  </head>
+  <!-- ДЗ ТАБЫ -->
+    <div class="tabs">
+      <div class="tabs__container" id="select">
+        <div class="tabs__container-btn active" type="button" data-tab="#tab_1">
+          <p class="tabs__container-text">Tab 1</p>
+          <div class="closeBtn">X</div>
+        </div>
+        <div class="tabs__container-btn" type="button" data-tab="#tab_2">
+          <p class="tabs__container-text">Tab 2</p>
+          <div class="closeBtn">X</div>
+        </div>
+        <div class="tabs__container-btn" type="button" data-tab="#tab_3">
+          <p class="tabs__container-text">Tab 3</p>
+          <div class="closeBtn">X</div>
+        </div>
+      </div>
+
+      <div class="tabs__content">
+        <div class="tabs__item actives" id="tab_1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            molestias veniam temporibus, corporis pariatur illo consectetur sit
+            cum voluptatum repudiandae fuga ipsum quia dicta eligendi!
+          </p>
+        </div>
+        <div class="tabs__item" id="tab_2">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            cupiditate temporibus similique nesciunt sit molestiae nihil eum
+            soluta quas. Quisquam voluptatum molestias animi tenetur mollitia
+            aperiam ipsa dolor est architecto officiis magnam vel neque veniam,
+            odio obcaecati dolores labore alias? Sapiente nostrum, nam veniam
+            laborum vitae sunt ipsam! Vitae, delectus?
+          </p>
+        </div>
+        <div class="tabs__item" id="tab_3">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+<!-- ДЗ модальное окно и таблица -->
+    <div class="wraper" id="visitor"></div>
+    <table id="list"></table>
+    <div class="mouseWindow"></div>
+    <div class="modal">
+      
+      <div class="popap">
+        <div class="popap-head">
+          <div class="close" onclick="closeModalWindow()">X</div>
+        </div>
+        <div class="popap-main">
+          <form class="popap-form">
+            <label>
+              <span>First Name</span>
+              <input type="text" name="first-name" id="first-name" />
+            </label>
+            <label>
+              <span>Last Name</span>
+              <input type="text" name="last-name" id="last-name"/>
+            </label>
+            <label>
+              <span>Age</span>
+              <input type="text" name="age" id="age"/>
+            </label>
+          </form>
+          <p class="empty"></p>
+          <div class="popap-btn">
+            <div class="btn close" onclick="closeModalWindow()">close</div>
+            <div class="btn ok" type="submit">ok</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn add-user">add user</div>
+    <script src="/Lesson_9/script.js"></script>
+  </body>
+</html>
