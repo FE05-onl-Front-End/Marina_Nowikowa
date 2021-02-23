@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.svg-img {
+  margin-top: 20px;
+  max-height: 400px;
+  display: none;
+}
+
+.optlist {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.wrapper-color {
+  border: black solid 1px;
+  width: 700px;
+  height: 500px;
+  background-color: gainsboro;
+  margin-top: 50px;
+}
+
+.colors {
+  min-height: 300px;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto auto;
+  gap: 2px;
+  padding: 20px;
+}
+
+.colors_item1 {
+  border: black solid 1px;
+  width: 100px;
+  height: 100px;
+
+  background-color: purple;
+}
+
+.colors_item2 {
+  border: black solid 1px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.colors_item3 {
+  border: black solid 1px;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.colors_item4 {
+  border: black solid 1px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.colors_item5 {
+  border: black solid 1px;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.colors_item6 {
+  border: black solid 1px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(40, 197, 87);
+}
+.colors_item7 {
+  border: black solid 1px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 128);
+}
+
+.colors_item8 {
+  border: black solid 1px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(106, 106, 168);
+}
+.colors_item9 {
+  border: black solid 1px;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+}
+
+.colors_item10 {
+  border: black solid 1px;
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+}
+
+.wrapper-select {
+  border: black solid 1px;
+  width: 700px;
+  height: 500px;
+  background-color: gainsboro;
+  margin-top: 50px;
+}
